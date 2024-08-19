@@ -66,8 +66,10 @@ public class EmployeeController {
 		return ResponseEntity.ok("user deleted successfully");
 	}
 	
-	
-	
-	
+	@GetMapping("/test")
+	public ResponseEntity<String> testPage() {
+
+		return ResponseEntity.ok("Just testing page");
+	}
 	
 }
